@@ -1,0 +1,95 @@
+#!/bin/bash
+# The `bash HOWTO` command given at the command line within the `mdgBookSVGecdKit-main` directory
+# in your computer will automatically carry out the following steps leading to the creation of the 
+# collection book: `mdgBookSVGecdv1.pdf`.
+# 
+# Create three sub-folders: `bin`, `images`, `res`, under the `mdgBookSVGecd-main` directory
+#	`bin` - folder for Bash files: mdgecd2mid+svg.sh, mdgecd2midRndN+svg.sh, mdgEntriesSVG2.sh
+#	`images` - folder for image files for book cover/title page: 1ed.png, FrontCover.pdf
+# `res` - folder for ABC, SVG, PDF output files; initially contains: 
+#		0TAB1ECc.pdf - crosstable for two-dice outcome vs. measure number of dance
+#		mdg-KAnhC3001.abc - notes for all possible measures for the dance in abc 
+#		hyperref.cfg - file containing the \hypersetup{} keyvalues for the \hyperref pkg
+#		mdg1.bib - bibliography file for the book
+#		mdgBookSVGecdv1.tex - main LaTeX file for book 
+#		mdgBookSVGecdv1-cover.tex - LaTeX file for cover page
+
+	mkdir bin images res
+	mv *.sh bin
+	mv 1ed.png images; mv FrontCover.pdf images
+	mv 0TAB1ECc.pdf res; mv mdg-KAnhC3001.abc res; 
+	mv *.tex res; mv hyperref.cfg res; mv mdg1.bib res
+
+# Change directory res folder then, for each  Bash file in `bin`, create a link 
+# from `bib` to `res`
+	
+	cd res 
+	ln -s ../bin/*.sh . 
+
+# Within `res` directory, generate nnn MDGs (nnn is number of MDG minuets in book to be created)
+# For 250 minuets to be generated: nnn=250.
+
+	./mdgecd2midRndN+svg.sh 250
+
+# Generate a list of SVGs created by the previous step:
+
+	ls --color=never KAnhC30-*.svg > svgList.txt
+
+# Create a list of figure entries for LaTeX file; *.pdf_tex files are also created using inkscape
+
+	./mdgecdEntriesSVG2.sh svgList.txt
+
+# Change the font sizes of titles, subtitles, repeat signs in each KAnhC30*.pdf_tex file
+
+	sed -i 's/\\textbf{K\.AnhC30/\\footnotesize \\tt {K\.AnhC30/g' *.pdf_tex
+	sed -i 's/\\textbf{Perm\./\\footnotesize \\tt {Perm\.\\/g' *.pdf_tex
+	sed -i 's/tabular}\[t\]{l}1/tabular}\[t\]{l}{\\footnotesize 1}/g' *.pdf_tex
+	sed -i 's/tabular}\[t\]{l}2/tabular}\[t\]{l}{\\footnotesize 2}/g' *.pdf_tex
+	sed -i 's/\\textbf{\\textit{tr}}/\\footnotesize\\textit{tr}/g' *.pdf_tex
+	sed -i 's/\\textbf{= 128}/\\footnotesize \\tt{= 128}/g' *.pdf_tex
+
+# Move svgList.txt.output to svgList.tex
+
+	cp svgList.txt.output svgList.tex
+
+# Remove trailing `001` from each svgList.tex entry 
+
+	sed -i.OLD 's/001}/}/g' svgList.tex
+	sed -i.OLD 's/001.mid}/.mid}/g' svgList.tex
+
+# Create the mdg-KAnhC3001.pdf (table of measures) SVGs; aslo *pdf_tex files using inkscape
+
+	abcm2ps -v -O= mdg-KAnhC3001.abc
+	inkscape --export-filename=mdg-KAnhC3001001.pdf --export-area-drawing --export-latex mdg-KAnhC3001001.svg
+	inkscape --export-filename=mdg-KAnhC3001002.pdf --export-area-drawing --export-latex mdg-KAnhC3001002.svg
+	inkscape --export-filename=mdg-KAnhC3001003.pdf --export-area-drawing --export-latex mdg-KAnhC3001003.svg
+	inkscape --export-filename=mdg-KAnhC3001004.pdf --export-area-drawing --export-latex mdg-KAnhC3001004.svg
+
+# Edit lines 53, 54 of mdg-KAnhC3001001.pdf_tex:
+##	- line 53: change ü (umlaut u) to \"{u} in Würferspiel
+	
+	sed -i.OLD 's/ü/\\"{u}/g' mdg-KAnhC3001001.pdf_tex 
+
+##	- line 54: add escapes ("\") before "%" (2x) and "_" (5x); and \url{---}for URL
+
+	sed -i.OLD '/http/s/_/\\_/g' mdg-KAnhC3001001.pdf_tex
+	sed -i.OLD 's/\[Source: http/\\footnotesize \[Source: \\url{http/g' mdg-KAnhC3001001.pdf_tex
+	sed -i.OLD 's/Amadeus)\]/Amadeus)}\]/g' mdg-KAnhC3001001.pdf_tex
+
+##	- add "\scriptsize" before every "tr" and "1./2." (symbol for trill ornament)  
+
+	sed -i.OLD 's/\\textit{tr}/\\textit{\\footnotesize tr}/g' mdg-KAnhC3001*.pdf_tex 
+	sed -i.OLD 's/tabular}\[t\]{l}1\./tabular}\[t\]{l}\\footnotesize 1\./g' mdg-KAnhC3001*.pdf_tex 
+	sed -i.OLD 's/tabular}\[t\]{l}2\./tabular}\[t\]{l}\\footnotesize 2\./g' mdg-KAnhC3001*.pdf_tex 
+	sed -i.OLD 's/\[t\]{l}\\textit{/\[t\]{c}\\texttt{\\footnotesize /g' mdg-KAnhC3001*.pdf_tex
+
+# Generate the PDF
+
+	pdflatex -synctex=1 -interaction=nonstopmode -shell-escape mdgBookSVGecdv1.tex
+	bibtex mdgBookSVGecdv1.aux
+	pdflatex -synctex=1 -interaction=nonstopmode -shell-escape mdgBookSVGecdv1.tex
+	pdflatex -synctex=1 -interaction=nonstopmode -shell-escape mdgBookSVGecdv1.tex
+
+###
+##
+#

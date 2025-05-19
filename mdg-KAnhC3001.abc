@@ -1,0 +1,67 @@
+%%scale 0.65
+%%pagewidth	8.5in
+%%barsperstaff	8 % number of measures per staff
+%%measurebox	false % measure numbers in a box
+%%measurenb	1
+X:1
+T:
+%%setfont-1 Courier-Bold 12
+T:Musikalische Würfelspiele, K.Anh.C.30.01 - Englische Contretänze
+T:$1[Source: https://imslp.org/wiki/Musikalische_W\%C3\%BCrfelspiele\%2C_K.Anh.C.30.01_(Mozart\%2C_Wolfgang_Amadeus)]$0
+C:attributed to W.A. Mozart
+S:
+M:2/4
+L:1/8
+Q:1/8=128
+%%staves [1 2]
+V:1 clef=treble
+V:2 clef=bass
+K:C
+%
+[V:1]
+ggec | dfBd | {a}gbgd | Dd^fa | c2C2 | dd/B/ GA/B/ | ccee | dfBd | 
+dB G2 | gecc | [GBg]2z2 | c/B/c/d/ cc | cege | gecc | c/e/g/e/ cc | [GBg]2z2 | 
+d/e/f/e/ f/d/c/B/ | ecBA | d/B/c/A/ G/g/f/d/ | c2C2 | D^F/A/ d/f/a/f/ | a/b/a/g/ {g/}^fe/d/ | e/c/e/c/ A^f | c'/b/a/g/ f/e/d/c/ | 
+d^faf | ecge | {a/}g^f/g/ d/g/d/B/ | g/^f/e/d/ c/B/A/G/ | e/c/G/c/ e/c/g/e/ | gdd^d | cc/e/ g/e/g/e/ | cgec | 
+c/C/E/G/ c/e/g/c'/ | g/b/g/d/ B/g/d/B/ | c/d/e/d/ c/E/G/c/ | cC/E/ Gc/e/ | ceG2 | c/c'/g/e/ c/g/e/c/ | g/^f/e/d/ c/B/A/G/ | f/e/d/c/ B/c/d/B/ | 
+c2C2 | cc/e/ gg/e/ | d/^c/d/e/ ^f/g/a/f/ | [GBg]2z2 | gc'ge | dBG2 | c2C2 | cc/e/ gg/e/ | 
+e/c/B/A/ G/B/^F/A/ | D/^F/A/d/ ^f/a/f/d/ | G/g/d/B/G2 | gbgd | gfdB | ceee | ggbg | dd^ff | 
+ffdd | [GBg]2z2 | c2cc | ffdd | dd^fa | eege | eag^f | g/e/f/d/ c/g/e/c/ | 
+ccc2 | ^ff/a/ d'a/f/ | gb/g/ dg/d/ | gg/e/ cc/e/ | cG/E/ CC | c2cc | [Ec][Ec][Ec]2 | e2cc | 
+eg^fa | c2C2 | c2cc | d/c/B/A/G2 | D^F/A/ d^f | ee/g/ ^ff/a/ | gb/g/ dg/d/ | ceee | 
+cGce | d2dd | [GBg]2z2 | dBG2 | gg/e/ cc/e/ | ff/d/ BB/d/ | ec/e/ ge/c/ | ce/g/ c'/g/e/c/ | 
+[GBg]2z2 | dBGB | g2bg | gdBG | d2a^f | cege | fdge | ddBB | 
+cGce | c2C2 | Gc2e | B/A/G/A/ B/c/d/B/ | ge2c | [GBg]2z2 | g/c'/g/f/ e/c/e/g/ | gd'/b/g2 | 
+c/B/c/d/ e/d/e/f/ | ge2c | dB2G | f/a/f/d/ B/d/B/G/ | de2B | cecG | D^F/A/ d^f | fdBG | 
+cGEC | ga/g/ f/e/d/c/ | [GBg]2z2 | d^f2a | a^f2d | c2C2 | gc'ge | d/e/^f/g/ a/b/c'/a/ | 
+ce/c/G2 | cG EC | gd BG | Bdgb | b/d'/c'/b/ a/g/^f/g/ | BdG2 | c2C2 | Gc2e | 
+fd BG | [GBg]2z2 | fd2B | ec2A/^F/ | dg2b | c/e/g/e/ c/G/c/e/ | eg =f/e/d/c/ | d^f/a/ d'd' | 
+ec' b/a/g/^f/ | ge2c | ce G2 | gd2B | dBGB | cGce | ec A^F | D/^F/A df | 
+[G,Ec]2c/d/e/f/ | c2C2 | d/e/^f/g/ a/f/e/d/ | a/g/a/^f/ de/f/ | Dd2^f/a/ | ge c/e/g/e/ | c2eg | gc'/g/ ec | 
+g/a/b/c'/ d'/b/a/g/ | fdcB | a2g/^f/e/d/ | gb2g/d/ | g/a/b/c'/ d'2 | c/d/e/f/ g/e/d/c/ | df2d/B/ | dB G/B/d/B/ | 
+e/g/e/c/ B/A/G/^F/ | gc' {f/}ed/c/ | c/B/c/d/ cc | BB GG | ce/c/ GG | g/a/g/f/ ee | [GBg]2z2 | ec2A/^F/ | 
+c/B/c/d/ ee | B/G/B/d/g2 | c2C2 | [GBg]2z2 | B/G/D/B,/ G,/G/B/d/ | c2eg | c'gec | gbg2 || 
+[V:2]
+C,2z2 | G,,2G,,2 | [B,,G,]2G,,2 | D,2[D,C,]2 | C,2C,,2 | G,2G,,2 | C,2C,2 | G,,2G,,2 | 
+G,,2 G,/F,/E,/D,/ | C,2z2 | G,,2"^1."G,/F,/E,/D,/ & G,,2"_2."G,,/A,,/B,,/C,/ | C,2z2 | C,2C,2 | C,2z2 | C,2C,,2 | G,,2"^1."G,/F,/E,/D,/ & G,,2"_2."G,,/A,,/B,,/C,/ | 
+G,,2G,,2 | C,2D,2 | G,,2z2 | C,2C,,2 | D,2[D,C,]2 | D,2[D,C,]2 | C,2D,2 | C,2z2 | 
+D,2[D,C,]2 | C,2C,2 | [B,,G,]2B,,2 | [B,,G,]2z2 | C,2C,2 | [B,,G,]2B,,2 | C,C,C,C, | C,2z2 | 
+C,2C,2 | G,z G,,z | C,2C,,2 | C,2C,2 | C,/C/B,/C/C,2 | C,z C,z | [B,,G,]2z2 | G,G,,G,,G,, | 
+C,2C,,2 | C,2z2 | D,2[D,C,]2 | G,,2"^1."G,/F,/E,/D,/ & G,,2"_2."G,,/A,,/B,,/C,/ | C,/D,/C,/B,,/ C,/D,/E,/C,/ | G,/G,,/B,,/D,/ G,/F,/E,/D,/ | C,2C,,2 | C,2z2 | 
+C,2D,D,, | D,z [C,D,]z | G,,2G,/F,/E/D/ | B,,/G,,/B,,/D,/ G,/D,/B,,/G,,/ | G,,/B,,/D,/B,,/ F,/D,/B,,/G,,/ | C,/E,/G,/E,/ C,/E,/G,/E,/ | B,,/D,/G,/D,/ B,,B,, | D,^F,/A,/ D/A,/F,/D,/ | 
+G,G,,/A,,/ B,,/C,/D,/B,,/ | G,,2"^1."G,/F,/E,/D,/ & G,,2"_2."G,,/A,,/B,,/C,/ | C,/E,/G,/E,/ C,/E,/G,/E,/ | G,G,,/A,,/ B,,/C,/D,/B,,/ | D,/^F,/A,/F,/ D,C, | C,/G,,/E,/C,/ C/G,/E,/C,/ | C,/B,,/C,/A,,/ D,/^C,/D,/D,,/ | C,zz2 | 
+C,2C,,2 | D,2D,2 | G,2B,,2 | C,2z2 | C,2z2 | C,/G,,/A,,/B,,/ C,/G,,/A,,/B,,/ | C,/C,,/E,,/G,,/ C,/E,/G,/E,/ | C,/E,/G,/E,/ C,/G,/E,/C,/ | 
+C,2D,2 | C,2C,,2 | C,/G,,/A,,/B,,/ C,/G,,/A,,/B,,/ | G,,2 G,/F,/E,/D,/ | D,2D,2 |  C,2D,2 | [B,,G,]2G,,2 | C,2z2 | 
+C,2z2 | D,/^F,/A,/G,/ F,/D,/E,/F,/ | G,,2"^1."G,/F,/E,/D,/ & G,,2"_2."G,,/A,,/B,,/C,/ | G,,/B,,/D,/G,/ G,,/=F,/E,/D,/ | C,2z2 | G,,2G,,2 | C,2z2 | C,2z2 | 
+G,,2"^1."G,/F,/E,/D,/ & G,,2"_2."G,,/A,,/B,,/C,/ | G,G,,/A,,/ B,,/A,,/B,,/G,,/ | B,,/D,/G,/D,/ B,,/G,,/A,,/B,,/ | G,2z2 | D,/^F,/A,/F,/ C,/F,/A,/C,/ | C,/E,/G,/E,/ C,/E,/G,/E,/ | G,2G,,2 | G,/D,/B,,/G,,/ G,/D,/B,,/G,,/ | 
+E,E,/E,/ E,C, | C,2C,,2 | C,/G,/E,/G,/ G,/F,/G,/A,/ | G,,2G,,2 | C,/G,/E,/G,/ C,/G,/E,/G,/ | B,,/G,,/B,,/D,/ "^1."G,/F,/E,/D,/ & B,,/G,,/B,,/D,/ "_2."G,,/A,,/B,,/C,/ | C,2z2 | G,2G,,2 | 
+C,2C,2 | C,/E,/G,/E,/ C,/E,/G,/E,/ | B,,/D,/G,/D,/ G,/F,/E,/D,/ | G,2G,,2 | G,,/D,/B,,/D,/ G,,/D,/B,,/D,/ | E,E,/E,/ E,C, | D,2D,2 | G,2G,,2 | 
+C,C,/C,/ C,C, | C,2z2 | G,,2"^1."G,/F,/E,/D,/ & G,,2"_2."G,,/A,,/B,,/C,/ | D,^C,/D,/ =C,/D,/C,/D,/ | D,/A,/^F,/A,/ D,/A,/^F,/A,/ | C,2C,,2 | C,2C,2 | D,2^F,2 | 
+C,2G,,2 | C,2C,,2 | G,2G,,2 | G,2G,,2 | G,2B,,2 | G,,2G,/F,/E,/D,/ | C,2C,,2 | C,/G,/E,/G,/ C,/G,/E,/G,/ | 
+G,2G,,2 | G,,2"^1."G,/F,/E,/D,/ & G,,2"_2."G,,/A,,/B,,/C,/ | G,,/D,/B,,/D,/ G,,/D,/B,,/D,/ | C,/A,/^F,/A,/ A,,/D,/C,/D,/ | B,,/D,/G,/D,/ B,,/D,/G,/D,/ | C,2z2 | C,2C,2 | D,2^F,2 | 
+C,2D,2 | C,/E,/G,/E,/ C,/E,/G,/E,/ | C,/G,/E,/G,/ C,/G,/E,/G,/ | D,/B,/G,/B,/ D,/B,/G,/B,/ | G,2G,,2 | C,C,/C,/ C,G,, | C,2D,2 | D,2D,2 | 
+C,/E,/G,/E,/C,2 | C,2C,,2 | D,2^F,2 | D,2^F,2 | D,2z2 | C,/E,/G,/E,/C,2 | C,/E,/G,/E,/C,2 | C,2z2 | 
+G,2B,,2 | G,2G,,2 | D,/^F,/A,/F,/ D,C, | G,2z2 | G,2G,,2 | C,2C,,2 | G,2G,,2 | G,,/B,,/D,/B,,/G,,2 | 
+C,2D,2 | C,2C,2 | C,2C,2 | G,,/A,,/B,,/C,/ D,/E,/F,/D,/ | 
+C,2z2 | C,2E,/G,/E,/C,/ | G,,2"^1."G,/F,/E,/D,/ & G,,2"_2."G,,/A,,/B,,/C,/ | C,2D,2 | 
+C,2C,/E,/G,/E,/ | G,,2G,/F,/E,/D,/ | C,2C,,2 | G,,2"^1."G,/F,/E,/D,/ & G,,2"_2."G,,/A,,/B,,/C,/ | G,,2z2 | C,/E,/G,/E,/C,2 | C,2C,2 | B,,/G,,/B,,/D,/ G,/D,/B,,/G,,/ || 

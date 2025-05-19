@@ -1,0 +1,48 @@
+% File name: mdgBooSVGecdv1-cover.tex
+% Purpose: Book Cover
+% Instruction: Should be \input{.} just after \begin{document}
+{
+\topmargin 0.00in
+\oddsidemargin 0.45in
+\textwidth 8.50in
+\textheight 11.50in
+\thispagestyle{empty}
+
+\begin{titlepage}
+
+\begin{picture}(0,0)%
+\linethickness{67.00pt}
+\color{blue!22!black}
+\put(-105,85){\line(1,0){6477}}
+\put(-105,-612){\includegraphics[clip=true,trim=0.00in 0.45in 0.25in 1.95in, height=11.5in,width=8.80in,keepaspectratio]%
+	{\theBookFrontCover}}
+\put(-105,-645){\line(1,0){6477}}
+\end{picture}
+
+\vspace{-1.50in}
+
+\begin{center}
+	\LARGE\textbf{\color{white} \theBookSeries}
+\end{center}
+
+\vspace{-0.25in}
+\vspace*{2.\baselineskip}
+\begin{center} \Huge\textbf{\color{DarkRed!40!Crimson}\em \mdgBookTitle}
+\end{center}
+
+\begin{center}
+	\Large\textbf{\color{DarkRed!40!Crimson}\em \mdgBookSubTitle}
+\end{center}
+
+\begin{center}
+	\LARGE\textbf{\color{DarkRed!20!Crimson}\em compiled by \authorFirstMidNameInit \authorLastName}
+\end{center}
+
+\vfill
+\begin{center}
+	\LARGE\textbf{\color{white}\em \theBookPublisher \\ \vspace{-0.25in}}
+\end{center}
+\end{titlepage}
+}
+
+
