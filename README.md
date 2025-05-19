@@ -19,9 +19,9 @@ Wait for a **few** minutes, i.e., until one gets the bash prompt again.  The com
 ## For the Impatient
 To download and examine an example of a book (`mdgBookSVG1ecdv1.pdf`) that was generated in a similar manner, simply right-click (then "Save Link As ...") on the following image:
 
-[![Front Cover](./mdgBookSVG1ecdv1-tit.png)](https://justineuro.github.io/mdgBookSVG1ecdKit/mdgBookSVG1ecdv1.pdf)
+[![Front Cover](./mdgBookSVGecdv1-tit.png)](https://justineuro.github.io/mdgBookSVG1ecdKit/mdgBookSVGecdv1.pdf)
 
-(**Note**: To enable the MIDI audio links in the book, one should download [mdgBookSVG1ecdv1-midis.zip](https://justineuro.github.io/mdgBookSVG1ecdKit/ldmt-v1-midis.zip) and unzip in the same directory in one's computer that contains the book, i.e., the book and midi files have to be in the same directory).
+(**Note**: To enable the MIDI audio links in the book, one should download [mdgBookSVGecdv1-midis.zip](https://justineuro.github.io/mdgBookSVG1ecdKit/mdgBookSVGecdv1-midis.zip) and unzip in the same directory in one's computer that contains the book, i.e., the book and midi files have to be in the same directory).
 
 
 ## Similar Kits (by the same author) on GitHub
