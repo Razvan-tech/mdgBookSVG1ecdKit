@@ -3,7 +3,7 @@
 **Here's an opportunity for one to "compose" English Country Dances and to author a Collection Book of such!!!**  
 ![](./kanhc30-ecd.svg)  
 
-**[Audio sample: &nbsp; [ogg](https://justineuro.github.io/mdgBookSVG1ecdKit/kanhc30-ecd.ogg) &nbsp;&nbsp; [midi](https://justineuro.github.io/mdgBookSVG1ecdKit/kanhc30-ecd.mid)]**
+**[Audio sample: &nbsp; [ogg](https://justineuro.github.io/mdgBookSVG1ecdKit/kanhc30-ecd.ogg) &nbsp;&nbsp; [midi](https://justineuro.github.io/mdgBookSVG1ecdKit/kanhc30-ecd.mid)]**  
 
 This folder contains materials that allow the user to author a book containing a collection of [Musical Dice Games (MDG)](https://en.wikipedia.org/wiki/Musikalisches_W%C3%BCrfelspiel) English Country Dances (ECD), generated based on the rules given in [*Musikalisches W&uuml;rferspiel, K.Anh.C.30.01 (1792/93) - Englische Contret&auml;nze*](https://imslp.org/wiki/Musikalische_W%C3%BCrfelspiele%2C_K.Anh.C.30.01_(Mozart%2C_Wolfgang_Amadeus)).  
 
